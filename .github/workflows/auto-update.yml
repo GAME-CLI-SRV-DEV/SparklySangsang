@@ -14,11 +14,11 @@ jobs:
           ref: 'ver/1.20.6'
           token: ${{ secrets.LORITTA_PAT }}
         
-      - name: Checkout Paper Repository
+      - name: Checkout Sangsang Repository
         uses: actions/checkout@v3
         with:
-          path: 'Paper'
-          repository: "PaperMC/Paper"
+          path: 'Sangsang'
+          repository: "GAME-CLI-SRV-DEV/Sangsang"
           ref: 'ver/1.20.6'
           token: ${{ secrets.LORITTA_PAT }}
       
